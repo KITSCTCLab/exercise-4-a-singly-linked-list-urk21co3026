@@ -2,7 +2,7 @@ from typing import Optional
 
 class Node:
 
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Initialises the Node with given attributes
         """
@@ -12,7 +12,7 @@ class Node:
 
 class LinkedList:
 
-    def _init_(self):
+    def __init__(self):
         """
         Initialize the head
         """
